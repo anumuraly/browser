@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Dynamic List</title>
+</head>
+<body>
+  <h1>Dynamic List</h1>
+
+  <!-- Initial list items with add and remove buttons -->
+  <ul id="initialList">
+    <li>
+      <span>Item 1</span>
+      <button onclick="addItem('Item 1')">Add</button>
+      <button onclick="removeItem('Item 1')">Remove</button>
+    </li>
+    <li>
+      <span>Item 2</span>
+      <button onclick="addItem('Item 2')">Add</button>
+      <button onclick="removeItem('Item 2')">Remove</button>
+    </li>
+    <li>
+      <span>Item 3</span>
+      <button onclick="addItem('Item 3')">Add</button>
+      <button onclick="removeItem('Item 3')">Remove</button>
+    </li>
+  </ul>
+
+  <!-- Dynamic list to show added items -->
+  <h2>Dynamic List</h2>
+  <ul id="dynamicList"></ul>
+
+  <script src="script.js"></script>
+  </body>
+</html>
